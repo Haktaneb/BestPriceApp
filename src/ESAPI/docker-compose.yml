@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  esapi:
+    image: ${DOCKER_REGISTRY}esapi
+    build:
+      context: .
+      dockerfile: ESAPI/Dockerfile
